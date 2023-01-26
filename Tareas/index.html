@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/60107a401e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Lista de Tareas Local Storage</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Gestion de tareas</h1>
+        <div class="container_input">
+            <input type="text" class="tituloT" id="titulo" placeholder="Escribe el titulo">
+            <input type="text" class="input" id="input" placeholder="Escribe la descripcion">
+            <a style="color: white;">Limite</a>
+            <input type="date" class="fecha" id="fecha">
+            <input type="time" class="hora" id="hora">
+            <input type="number" class="numero" id="numero" min="1" max="5" value="5">
+            <button class="btn_todo" id="btn_todo">Añadir</button>
+        </div>
+        <div>
+            <input type="text" class="input" id="bus" placeholder="Buscar">
+            <input type="checkbox" id="ti"> Titulo
+            <input type="checkbox" id="fl"> Fecha Limite
+            <input type="checkbox" id="tit"> Tiempo
+            <input type="checkbox" id="pr"> Prioridad
+            <button class="btn_todo" id="btn_bus">Buscar</button>
+        </div>
+        <div class="container_todo">
+            
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
